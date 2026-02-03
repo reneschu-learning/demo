@@ -1,6 +1,6 @@
 # Schachspiel
 
-Ein optisch ansprechendes Schachspiel, entwickelt mit TypeScript und HTML.
+Ein optisch ansprechendes Schachspiel, entwickelt mit TypeScript und HTML. Das Projekt wurde vollständig von GitHub Copilot generiert und implementiert.
 
 ## Features
 
