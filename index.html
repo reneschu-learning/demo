@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schachspiel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>♟ Schachspiel</h1>
+        </header>
+        
+        <div class="game-wrapper">
+            <div class="sidebar">
+                <div class="game-info">
+                    <h2>Spielinformation</h2>
+                    <div class="current-player">
+                        <span class="label">Am Zug:</span>
+                        <span id="currentPlayer" class="player-indicator white">Weiß</span>
+                    </div>
+                    <div class="game-status">
+                        <span id="gameStatus">Spiel läuft</span>
+                    </div>
+                </div>
+                
+                <div class="controls">
+                    <button id="newGameBtn" class="btn btn-primary">Neues Spiel</button>
+                    <button id="undoBtn" class="btn btn-secondary">Zug zurück</button>
+                </div>
+                
+                <div class="move-history">
+                    <h3>Zughistorie</h3>
+                    <div id="moveList" class="move-list"></div>
+                </div>
+            </div>
+            
+            <div class="board-container">
+                <div id="chessboard" class="chessboard"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="dist/chess.js"></script>
+</body>
+</html>
